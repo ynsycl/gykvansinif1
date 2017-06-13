@@ -1,0 +1,10 @@
+git video eğitim= https://www.udemy.com/git-ve-github-kullanmayi-ogrenin/learn/v4/overview
+java se kaynak= https://www.injavawetrust.com/java-se/
+android video eğitim= https://www.youtube.com/user/emrealtunbilek/playlists
+material icon =https://material.io/icons/
+android icon maker=https://romannurik.github.io/AndroidAssetStudio/index.html
+icon sitesi=http://www.iconarchive.com/
+action bar style generater = http://jgilfelt.github.io/android-actionbarstylegenerator
+tasarım= https://developer.android.com/design/downloads/index.html
+tasarım=https://design.google.com/
+
