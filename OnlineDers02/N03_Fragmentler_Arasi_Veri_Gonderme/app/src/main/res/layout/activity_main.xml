@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e48bdb">
+
+
+    <!--
+ fragment1 nesnesi ile oluşturduğumuz fragment_a dosyasını activity_main layoutunda
+ gösteriyoruz.
+ fragment'in android:name="" özelliğine Oluştırduğumuz FragmentA classını
+ atama yapıyoruz
+ -->
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.oyunhamuru.n03_fragmentler_arasi_veri_gonderme.FragmentA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        tools:layout="@layout/fragment_a" />
+
+
+    <!--
+ fragment2 nesnesi ile oluşturduğumuz fragment_b dosyasını activity_main layoutunda
+ gösteriyoruz.
+ fragment'in android:name="" özelliğine Oluştırduğumuz FragmentB classını
+ atama yapıyoruz
+ -->
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.oyunhamuru.n03_fragmentler_arasi_veri_gonderme.FragmentB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        tools:layout="@layout/fragment_b" />
+</RelativeLayout>

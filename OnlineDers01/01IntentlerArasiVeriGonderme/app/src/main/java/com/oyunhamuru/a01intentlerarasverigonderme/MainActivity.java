@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 //veriEditText içindeki veriyi veri değişkenine atıyoruz
                 String veri=veriEditText.getText().toString();
 
+                
 
                 //veri değişkeninin boş olup olmadığını kontrol ediyoruz
                 //Eğer boş ise if bloğunun içindeki uyarı mesajını kullanıcıya gösteriyoruz

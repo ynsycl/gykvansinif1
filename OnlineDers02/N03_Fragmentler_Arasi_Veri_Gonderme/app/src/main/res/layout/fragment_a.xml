@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+Fragment layoutu içine veri göndermede kullanacağımız
+ Button nesnesini kattık.
+Fragmentin LinearLayout'unun arkaplan rengini değiştirdik.
+Bu veri gönderecek olan fragment'ımız
+
+-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f97e0a"
+    android:layout_margin="40dp"
+    >
+
+    <Button
+        android:layout_margin="10dp"
+        android:text="Bana Tıkla"
+        android:id="@+id/btn_tikla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
