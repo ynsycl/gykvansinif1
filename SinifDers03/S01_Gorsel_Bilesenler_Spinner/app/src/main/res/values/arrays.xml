@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="country_arrays">
+        <item>Türkiye</item>
+        <item>Almanya</item>
+        <item>Avusturya</item>
+        <item>Amerika</item>
+        <item>İngiltere</item>
+        <item>Macaristan</item>
+        <item>Yunanistan</item>
+        <item>Rusya</item>
+        <item>Suriye</item>
+        <item>İran</item>
+        <item>Irak</item>
+        <item>Şili</item>
+        <item>Brezilya</item>
+    </array>
+</resources>

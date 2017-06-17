@@ -1,0 +1,39 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--Kendi oluşturduğumuz özelleştirilmiş ActionBar temasını Ana temanın actionBarStyle'ına
+        atama yapıyoruz
+        -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+
+    </style>
+
+
+    <!-- özelleştirilmiş ActionBar temasını başlangıç -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+
+        <!--Renkleri values>colors.xml de tanımlayıo oradan aldık-->
+        <item name="android:background">@color/simple_yellow</item>
+        <item name="android:titleTextStyle">@style/MyActionBar.TitleTextStyle</item>
+        <item name="background">@color/simple_yellow</item>
+        <item name="titleTextStyle">@style/MyActionBar.TitleTextStyle</item>
+    </style>
+
+    <!-- actionBar'ın text stilini ayarladığımız style başlangıç-->
+    <!--Bu style'ı özelleştirdiğimiz actionBar style'ına atama yapıyoruz-->
+    <style name="MyActionBar.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/primary_blue</item>
+    </style>
+    <!-- actionBar'ın text stilini ayarladığımız style başlangıç-->
+
+    <!-- özelleştirilmiş ActionBar temasını bitiş -->
+
+</resources>

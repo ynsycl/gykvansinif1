@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oyunhamuru.s01_gorselbilesenlerspinner.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+<TextView
+    android:textSize="20sp"
+    android:text="Spinner'a manuel veri ekleme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"/>
+    <Spinner
+        android:id="@+id/spinner_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/country_arrays"/>
+    <TextView
+        android:textSize="20sp"
+        android:text="Spinner'a kodla veri ekleme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+    <Spinner
+        android:id="@+id/spinner_country2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:text="Seçilenleri göster"
+        android:id="@+id/btn_show_selected_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
