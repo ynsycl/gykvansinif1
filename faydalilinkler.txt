@@ -8,3 +8,5 @@ action bar style generater = http://jgilfelt.github.io/android-actionbarstylegen
 tasarım= https://developer.android.com/design/downloads/index.html
 tasarım=https://design.google.com/
 
+ingilizce android eğitim=https://www.udacity.com/courses/android
+
