@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.oyunhamuru.s01_intent_intentler_arasi_veri_yollama.MainActivity">
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/et_veri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Birşey Yaz!" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_veri_gonder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veri Gönder" />
+</LinearLayout>

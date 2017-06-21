@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.oyunhamuru.s02_intent_implicitustukapali_intent_olusturma.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_web_sitesi_ac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web Sitesi Aç" />
+
+    <Button
+        android:id="@+id/btn_harita_ac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harita Aç" />
+
+    <Button
+        android:id="@+id/btn_veri_paylas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veri Paylaş" />
+</LinearLayout>
