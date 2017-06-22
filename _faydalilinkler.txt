@@ -10,3 +10,4 @@ tasarım=https://design.google.com/
 
 ingilizce android eğitim=https://www.udacity.com/courses/android
 
+ekran boyutları https://material.io/devices/
